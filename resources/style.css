@@ -1,23 +1,28 @@
-.container {
-  display: flex;
-  align-items: center;
-}
-
-header .container {
+.header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding-left: 30px;
+  flex-grow: 1;
+ ;
+  
 }
 
-
+div .logo{
+  color: MediumAquamarine;
+  display: flex;
+  align-items: center;
   
+}
 
-  #header-text {
-    width: 100px;
-    flex-grow: 1;
-  }
+.logo p {
+  padding-left: 15px;
+}
 
-  #navigation  {
-    width: 100px;
-    flex-grow: 1;
-  }
+nav {
+  display: inline-block;
+  padding-right: 40px;
+}
