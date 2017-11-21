@@ -33,6 +33,46 @@ nav span {
   padding: 20px 10px;
 }
 
+div.content {
+  display: flex;
+  border: 1px solid black
+}
+
+div.column.large {
+
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+  border: 1px solid black
+}
+
+div.image-content {
+    background-image: url(./images/img-story-main.png);
+    display: flex;
+}
+
+.image-content span {
+  font-family: Georgia;
+   font-weight: bold;
+   font-size: 30px;
+   color: white;
+}
+
+div.column.medium {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 1px solid black
+}
+
+div.column.small {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  border: 1px solid black
+}
+
+
 .container {
   background-color:
   display: flex;
