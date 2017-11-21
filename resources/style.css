@@ -35,7 +35,10 @@ nav span {
 
 div.content {
   display: flex;
-  border: 1px solid black
+  padding-top: 116px;
+  border: 1px solid black;
+  margin-bottom: 78px;
+
 }
 
 div.column.large {
@@ -43,33 +46,58 @@ div.column.large {
   display: flex;
   flex-direction: column;
   width: 630px;
-  border: 1px solid black
+  border: 1px solid black;
+  font-size: 17px;
+  font-family: Georgia;
 }
 
 div.image-content {
     background-image: url(./images/img-story-main.png);
     display: flex;
+    width: 629px;
+    height: 300px;
 }
 
 .image-content span {
-  font-family: Georgia;
    font-weight: bold;
-   font-size: 30px;
+   font-size: 40px;
    color: white;
 }
+
+.lead-story p {
+  color: black;
+}
+
+div.stories {
+  display: column;
+  border: 1px solid black;
+}
+
+div #girl {
+  background-image: url(./images/img-story-2.png);
+  display: flex;
+  width: 629px;
+  height: 300px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin-top: 15px;
+}
+
+
 
 div.column.medium {
   display: flex;
   flex-direction: column;
   width: 300px;
-  border: 1px solid black
+  border: 1px solid black;
 }
 
 div.column.small {
   display: flex;
   flex-direction: column;
   width: 240px;
-  border: 1px solid black
+  border: 1px solid black;
 }
 
 
