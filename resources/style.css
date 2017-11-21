@@ -33,15 +33,15 @@ nav span {
 }
 
 div {
-  border: 1px solid black;
+
   }
 
 .content {
   display: flex;
   margin: 0px auto 78px auto;
-  border: 1px solid black;
+
   padding-top: 116px;
-  width: 1232px;
+  width: auto;
 }
 
 .column {
@@ -85,6 +85,10 @@ div #dude {
   height: 300px;
 }
 
+div .stories {
+  flex-wrap: ;
+}
+
 div.column.medium {
   display: flex;
   flex-direction: column;
@@ -101,13 +105,4 @@ div.column.small {
   display: flex;
   flex-direction: column;
   width: 240px;
-
-}
-
-
-.container {
-  background-color:
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
 }
