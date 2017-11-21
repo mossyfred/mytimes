@@ -19,7 +19,6 @@ header {
 
 .logo span {
   padding-left: 12px;
-
 }
 
 nav {
@@ -33,44 +32,44 @@ nav span {
   padding: 20px 10px;
 }
 
-div.content {
-  display: flex;
-  padding-top: 116px;
+div {
   border: 1px solid black;
-  margin-bottom: 78px;
+  }
 
+.content {
+  display: flex;
+  margin: 0px auto 78px auto;
+  border: 1px solid black;
+  padding-top: 116px;
+  width: 1232px;
 }
 
-div.column.large {
+.column {
+  margin-right: 32px;
+  font-size: 17px;
+  font-family: Georgia;
+  }
 
+  div.image-content {
+      display: flex;
+      flex-direction: column;
+      font-weight: bold;
+      font-size: 30px;
+      color: white;
+      margin-top: 15px;
+  }
+
+div.column.large {
   display: flex;
   flex-direction: column;
   width: 630px;
-  border: 1px solid black;
-  font-size: 17px;
-  font-family: Georgia;
 }
 
-div.image-content {
+div #champie {
     background-image: url(./images/img-story-main.png);
-    display: flex;
     width: 629px;
     height: 300px;
-}
-
-.image-content span {
-   font-weight: bold;
-   font-size: 40px;
-   color: white;
-}
-
-.lead-story p {
-  color: black;
-}
-
-div.stories {
-  display: column;
-  border: 1px solid black;
+    font-size: 40px;
 }
 
 div #girl {
@@ -78,26 +77,31 @@ div #girl {
   display: flex;
   width: 629px;
   height: 300px;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  margin-top: 15px;
 }
 
-
+div #dude {
+  background-image: url(./images/img-story-3.png);
+  width: 629px;
+  height: 300px;
+}
 
 div.column.medium {
   display: flex;
   flex-direction: column;
   width: 300px;
-  border: 1px solid black;
+}
+
+div #cat {
+  background-image: url(./images/img-story-1.png);
+  width: 299px;
+  height: 300px;
 }
 
 div.column.small {
   display: flex;
   flex-direction: column;
   width: 240px;
-  border: 1px solid black;
+
 }
 
 
