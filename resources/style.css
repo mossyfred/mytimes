@@ -50,20 +50,18 @@ body {
   margin-right: 32px;
   font-size: 17px;
   font-family: Georgia;
-  }
+}
 
-
- .image-content {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      font-weight: bold;
-      font-size: 30px;
-      color: white;
-      margin-top: 15px;
-      text-align: left;
-     
-  }
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin-top: 15px;
+  text-align: left;
+}
 
 .large {
   display: flex;
@@ -82,11 +80,11 @@ body {
 }
 
 div #champie {
-    background-image: url(./images/img-story-main.png);
-    width: 629px;
-    height: 300px;
-    font-size: 40px;
-    }
+  background-image: url(./images/img-story-main.png);
+  width: 629px;
+  height: 300px;
+  font-size: 40px;
+}
 
 div #girl {
   background-image: url(./images/img-story-2.png);
@@ -181,7 +179,6 @@ footer {
   display: flex;
   align-items: center;
   z-index: 1;
-  
 }
 
 footer .span {
