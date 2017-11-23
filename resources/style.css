@@ -40,7 +40,6 @@ body {
 .content {
   display: flex;
   margin: 0px auto 78px auto;
-
   padding-top: 116px;
   width: auto;
 }
@@ -51,6 +50,7 @@ body {
   font-family: Georgia;
   }
 
+
  .image-content {
       display: flex;
       flex-direction: column;
@@ -59,12 +59,17 @@ body {
       color: white;
       margin-top: 15px;
       text-align: center;
+      justify-content: center;
   }
 
 .large {
   display: flex;
   flex-direction: column;
   width: 630px;
+}
+
+.text-content h2 {
+  height: 87px;
 }
 
 div #champie {
@@ -77,16 +82,16 @@ div #champie {
 
 div #girl {
   background-image: url(./images/img-story-2.png);
-  background-repeat:;
+  background-repeat:no-repeat;
   display: flex;
-  width: 629px;
+  width: 300px;
   height: 300px;
 }
 
 div #dude {
   background-image: url(./images/img-story-3.png);
-  background-repeat:
-  width: 629px;
+  background-repeat: no-repeat;
+  width: 300px;
   height: 300px;
 }
 
@@ -97,8 +102,9 @@ div #dude {
 }
 
 .story {
-  display: flex;
+  display: block;
   flex-direction: column;
+  justify-content: space-between;
   width: 300px;
 }
 
